@@ -1,0 +1,32 @@
+{
+  "name": "wpsmith/servefile",
+  "description": "WordPress Serve File.",
+  "keywords": [
+    "wordpress",
+    "filesystem",
+    "files",
+    "serve files"
+  ],
+  "homepage": "https://github.com/wpsmith/ServeFile",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Travis Smith",
+      "email": "t@wpsmith.net",
+      "homepage": "http://wpsmith.net/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/wpsmith/ServeFile/issues"
+  },
+  "require": {
+    "php": ">=5.2.4",
+    "wpsmith/singleton": "0.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPS\\Core\\": "src/"
+    }
+  }
+}
